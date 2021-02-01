@@ -55,17 +55,20 @@ const Header = () => {
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-light">
+          <a class="button is-light"href="https://www.linkedin.com/company/indian-society-for-technical-education-iste-srm-ncr/" target="_blank">
           <FontAwesomeIcon icon={["fab", "linkedin"]} />
           </a>
-          <a class="button is-light">
+          <a class="button is-light"href="https://github.com/ISTESRMNCR"target="_blank">
           <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
-          <a class="button is-light">
+          <a class="button is-light"href="https://www.instagram.com/iste_srm_offc/"target="_blank">
           <FontAwesomeIcon icon={["fab", "instagram"]} />
           </a>
-          <a class="button is-light">
+          <a class="button is-light" href="https://www.facebook.com/AskISTESRMNCR/"target="_blank">
           <FontAwesomeIcon icon={["fab", "facebook"]} />
+          </a>
+          <a class="button is-light" href="https://discord.gg/ZrcJ5Qv"target="_blank">
+          <FontAwesomeIcon icon={["fab", "discord"]} />
           </a>
         </div>
       </div>
