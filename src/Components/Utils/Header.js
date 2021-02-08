@@ -51,28 +51,30 @@ const Header = () => {
         </div>
       </div>
     </div>
-
-    <div className="navbar-end">
-      <div className="navbar-item">
-        <div className="buttons">
-          <a className="button is-light" href="/">
-          <FontAwesomeIcon icon={["fab", "linkedin"]} />
-          </a>
-          <a className="button is-light" href="/">
-          <FontAwesomeIcon icon={["fab", "github"]} />
-          </a>
-          <a className="button is-light" href="/">
-          <FontAwesomeIcon icon={["fab", "instagram"]} />
-          </a>
-          <a className="button is-light" href="/">
-          <FontAwesomeIcon icon={["fab", "facebook"]} />
-          </a>
+        <div className="navbar-end">
+          <div className="navbar-item">
+            <div className="buttons">
+              <a className="button is-light" href="/">
+              <FontAwesomeIcon icon={["fab", "linkedin"]} />
+              </a>
+              <a className="button is-light" href="/">
+              <FontAwesomeIcon icon={["fab", "github"]} />
+              </a>
+              <a className="button is-light" href="/">
+              <FontAwesomeIcon icon={["fab", "instagram"]} />
+              </a>
+              <a className="button is-light" href="/">
+              <FontAwesomeIcon icon={["fab", "facebook"]} />
+              </a>
+              <a class="button is-light" href="/" target="_blank">
+              <FontAwesomeIcon icon={["fab", "discord"]} />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
+    </nav>
     </div>
-  </div>
-</nav>
-</div>
     );
 }
 
